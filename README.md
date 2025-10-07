@@ -24,7 +24,6 @@ This is made possible by configuring this repository as a Global Pipeline Librar
 To use the functions in this library, you must first import it at the top of your Jenkinsfile. This example shows how simple a pipeline can become by leveraging the shared functions.
 
 ```groovy
-@Library('qa-jenkins-library') _
 
 node {
     library 'qa-jenkins-library'
